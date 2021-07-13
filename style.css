@@ -1,0 +1,58 @@
+body{
+	width: 100%;
+	background-color: mintcream;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+}
+div{
+	max-width: 100%;
+	min-width: 60px;
+}
+.minhaBarra2{
+	background-color: red;
+}
+.minhaBarra3{
+	background-color: blue;
+}
+.minhaBarra4{
+	background-color: green;
+}
+.minhaBarra5{
+	background-color: yellow;
+}
+.minhaBarra6{
+	background-color: pink;
+}
+.minhaBarra7{
+	background-color: purple;
+}
+.minhaBarra8{
+	background-color: orange;
+}
+.minhaBarra9{
+	background-color: gray;
+}
+.minhaBarra10{
+	background-color: lightblue;
+}
+.minhaBarra11{
+	background-color: lightgreen;
+}
+.minhaBarra12{
+	background-color: lightseagreen;
+}
+
+@media screen and (min-width: 800px) {
+	body{
+		font-size: 2em;
+	}
+	div{
+		
+		min-width: 85px;
+	}
+}
