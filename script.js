@@ -42,11 +42,7 @@ function lançamento (){
 			count[12] += 1
 		}
 }
-	let randomColor = () => {
-	const colors = ["#1F271B", "#003F91", "#6D326D", "#157A6E", "#916953"];
-	      
-	return colors[Math.floor(Math.random() * 5)];
-   	};	
+	
 	for(prg = 2; prg <= count.length-1; prg++){
 		const body = document.querySelector("body");
 		const novo = document.createElement("div");
@@ -55,7 +51,7 @@ function lançamento (){
 		body.appendChild(novo)
 		let larguraDaBarra = count[prg] * 2;
 		novo.style.width = `${larguraDaBarra}px`;
-		novo.style.background =`${randomColor}`
+		
 	}
 
 }
